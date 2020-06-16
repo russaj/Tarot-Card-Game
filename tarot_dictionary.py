@@ -1,4 +1,4 @@
-Fool =	{
+fool =	{
   "face": "The Fool",
   "Number": 0,
   "Suit": "Arcana Major",
