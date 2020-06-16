@@ -1,6 +1,6 @@
 Fool =	{
   "face": "The Fool",
-  "Number": 0
+  "Number": 0,
   "Suit": "Arcana Major",
   "Message": "N/A",
   "Keywords": "New beginnings, beginner's mind, openness, freedom",
