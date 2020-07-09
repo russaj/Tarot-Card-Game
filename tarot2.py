@@ -16,6 +16,13 @@ print("Please pick a number between 1 and 22.")
 number = int(input())
 print(number)
 
+cards = tarot_dictionary.tarot_deck;
+list_cards = []
+for x in cards:
+    list_cards.append(x)
+
+print(list_cards[number])
+
 #card = tarot_dictionary.tarot_deck["fool"];
 card = tarot_dictionary.tarot_deck;
 print(card)
