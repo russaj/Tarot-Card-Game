@@ -1,5 +1,5 @@
 tarot_deck = {
-  "fool" =	{
+  "fool" : {
   "face": "The Fool",
   "Number": 0,
   "Suit": "Arcana Major",
@@ -8,7 +8,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Foolishness, recklessness, irresponsibility, naivety, lack of judgement"
 },
-  "magician" =	{
+  "magician" :	{
   "face": "The Magician",
   "Number": 1,
   "Suit": "Arcana Major",
@@ -17,7 +17,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Blocked creative energy, unrealistic ambitions, inability to stay foced, manipulation"
 },
-  "highpriestess" =	{
+  "highpriestess" :	{
   "face": "The High Priestess",
   "Number": 2,
   "Suit": "Arcana Major",
@@ -26,7 +26,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Mistrust of intuition, superficial knowledge, impatience, imbalance"
 },
-  "empress" =	{
+  "empress" :	{
   "face": "The Empress",
   "Number": 3,
   "Suit": "Arcana Major",
@@ -35,7 +35,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Unproductive, lack of growth, stagnation, neglect, procrastination, poor self-image"
 },
-  "emperor" =	{
+  "emperor" :	{
   "face": "The Emperor",
   "Number": 4,
   "Suit": "Arcana Major",
@@ -44,7 +44,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Chaos, impulsiveness, lack of self-discipline, misuse of power"
 },
-  "hierophant" =	{
+  "hierophant" :	{
   "face": "The Hierophant",
   "Number": 5,
   "Suit": "Arcana Major",
@@ -53,7 +53,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Poor advice, narrow-mindedness, wrong course of action, restriction"
 },
-  "lovers" =	{
+  "lovers" :	{
   "face": "The Lovers",
   "Number": 6,
   "Suit": "Arcana Major",
@@ -62,7 +62,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Reluctance to commit, stagnation, discord, confusion, miscommunication, pressure"
 },
-  "chariot" =	{
+  "chariot" :	{
   "face": "The Chariot",
   "Number": 7,
   "Suit": "Arcana Major",
@@ -71,7 +71,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Lack of direction, losing control, a halt in projects, defeat"
 },
-  "strength" =	{
+  "strength" :	{
   "face": "Strength",
   "Number": 8,
   "Suit": "Arcana Major",
@@ -80,7 +80,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Fear, self-doubt, insecurity, imbalance, anger"
 },
-  "hermit" =	{
+  "hermit" :	{
   "face": "The Hermit",
   "Number": 9,
   "Suit": "Arcana Major",
@@ -89,7 +89,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Isolation, loneliness, sadness, dishonesty, self-pity"
 },
-  "wheel" =	{
+  "wheel" :	{
   "face": "The Wheel of Fortune",
   "Number": 10,
   "Suit": "Arcana Major",
@@ -98,7 +98,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Setbacks, loss of control, wrong decisions, a period of difficulty"
 },
-  "justice" =	{
+  "justice" :	{
   "face": "Justice",
   "Number": 11,
   "Suit": "Arcana Major",
@@ -107,7 +107,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Injustice, irresponsibility, false accusations, lack of resolution, imbalance"
 },
-  "hangedman" =	{
+  "hangedman" :	{
   "face": "The Hanged Man",
   "Number": 12,
   "Suit": "Arcana Major",
@@ -116,7 +116,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Not letting go, narrow-mindedness, holding onto the material"
 },
-  "death" =	{
+  "death" :	{
   "face": "Death",
   "Number": 13,
   "Suit": "Arcana Major",
@@ -125,7 +125,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Stagnation, lethargy, indecision. destruction"
 },
-  "temperance" =	{
+  "temperance" :	{
   "face": "Temperance",
   "Number": 14,
   "Suit": "Arcana Major",
@@ -134,7 +134,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Imbalance, fear of failure, recklessness, excess"
 },
-  "devil" =	{
+  "devil" :	{
   "face": "The Devil",
   "Number": 15,
   "Suit": "Arcana Major",
@@ -143,7 +143,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Illusion, fear, addiction, anger obsession, self-destruction"
 },
-  "tower" =	{
+  "tower" :	{
   "face": "The Tower",
   "Number": 16,
   "Suit": "Arcana Major",
@@ -152,7 +152,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Entrapment, oppression, strife, ongoing depression"
 },
-  "star" =	{
+  "star" :	{
   "face": "The Star",
   "Number": 17,
   "Suit": "Arcana Major",
@@ -161,7 +161,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Pessimism, sadness, dashed hopes, loneliness"
 },
-  "moon" =	{
+  "moon" :	{
   "face": "The Moon",
   "Number": 18,
   "Suit": "Arcana Major",
@@ -170,7 +170,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Fear, insecurity, confusion, illusion, rejection of reality"
 },
-  "sun" =	{
+  "sun" :	{
   "face": "The Sun",
   "Number": 19,
   "Suit": "Arcana Major",
@@ -179,7 +179,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Wasted energy, fatigue, unclear future, delays"
 },
-  "judgement" =	{
+  "judgement" :	{
   "face": "Judgement",
   "Number": 20,
   "Suit": "Arcana Major",
@@ -188,7 +188,7 @@ tarot_deck = {
   "Reverse Message": "N/A",
   "Reverse Keywords": "Indecision, self-doubt, lacking faith, procrastination"
 },
-  "world" =	{
+  "world" :	{
   "face": "The World",
   "Number": 21,
   "Suit": "Arcana Major",
