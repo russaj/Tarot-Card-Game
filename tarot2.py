@@ -1,5 +1,6 @@
 # Setup Start
 import tarot_dictionary
+import random
 # Setup End
 
 # name = input("Hello. What is your name?")
