@@ -1,4 +1,6 @@
-import tarot_dictionary as tarot_deck
+# Setup Start
+import tarot_dictionary
+# Setup End
 
 # name = input("Hello. What is your name?")
 # print("Hello " + name + ". Welcome to the tarot game!")
@@ -9,8 +11,13 @@ import tarot_dictionary as tarot_deck
 # else:
 #     print("It'll be fine - take a deep breath and let's get started.")
 
-number = input("Please pick a number between 1 and 22.")
+print("Please pick a number between 1 and 22.")
+number = int(input())
+print(number)
 
-for x in tarot_deck:
-    print(tarot_deck["Keywords"])
+card = tarot_dictionary.tarot_deck["fool"];
+print(card)
+
+#for x in tarot_deck:
+#    print(tarot_deck["Keywords"])
 
