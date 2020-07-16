@@ -12,23 +12,29 @@ import random
 # else:
 #     print("It'll be fine - take a deep breath and let's get started.")
 
-print("Please pick a number between 1 and 22.")
+print("Please pick a number between 1 and 23.")
 number = int(input())
+number -= 1
 print(number)
 
 cards = tarot_dictionary.tarot_deck;
 list_cards = []
-for x in cards:
+for x in cards.items():
     list_cards.append(x)
+print(type(list_cards))
+#name of the card
+print(list_cards[number][1]['Suit'])
+print(list_cards[number][1]['Keywords'])
+#print(list_cards[number][1])
+#for y in list_cards[0]['keywords']:
+#    print(y)
+#print(type(y))
 
-print(list_cards[number])
+#for k,v in cards.items():
+#    print(k)
 
-#card = tarot_dictionary.tarot_deck["fool"];
-card = tarot_dictionary.tarot_deck;
-print(card)
-selection = random.choice(list(card.values()))
-print(selection)
+#print(type(list_cards))
+#print(list_cards[0][number])
 
-#for x in tarot_deck:
-#    print(tarot_deck["Keywords"])
-
+#selection = random.choice(list(cards.values()))
+#print(selection)
