@@ -1,8 +1,11 @@
 # Modules
 import tarot_dictionary
+import tarot_spread
 import random
 # Module End
-
+print(type(tarot_spread.full_deck()))
+full_deck = tarot_spread.full_deck()
+print(type(full_deck))
 # name = input("Hello. What is your name?")
 # print("Hello " + name + ". Welcome to the tarot game!")
 
@@ -28,10 +31,10 @@ elif card_spread == "B":
     print(v1,v2,v3)
 else:
     print("Stop wasting my time! Pick one!")
-cards = tarot_dictionary.tarot_deck;
-list_cards = []
-for x in cards.items():
-    list_cards.append(x)
+#cards = tarot_dictionary.tarot_deck;
+#list_cards = []
+#for x in cards.items():
+#    list_cards.append(x)
 #print(type(list_cards))
 #choose random card
 #random_card1 = random.randint(0, 21)
