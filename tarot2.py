@@ -3,6 +3,7 @@ import tarot_dictionary
 #import tarot_spread
 import random
 # Module End
+#one card oracle spread
 def full_deck():
     cards = tarot_dictionary.tarot_deck;
     list_cards = []
@@ -10,7 +11,6 @@ def full_deck():
         list_cards.append(x)
     return list_cards
 
-#one card oracle spread
 def oracle_one():
     v1 = random.sample(range(0,21),1)
     random_number = random.random()
@@ -22,10 +22,6 @@ def oracle_one():
         return full_deck()[v1][1]['Reverse Keywords']
     print(type(full_deck()))
     print(oracle_one())
-    
-print(type(full_deck()))
-full_deck = full_deck()
-print(type(full_deck))
 # name = input("Hello. What is your name?")
 # print("Hello " + name + ". Welcome to the tarot game!")
 
@@ -51,10 +47,9 @@ elif card_spread == "B":
     print(v1,v2,v3)
 else:
     print("Stop wasting my time! Pick one!")
-#cards = tarot_dictionary.tarot_deck;
-#list_cards = []
-#for x in cards.items():
-#    list_cards.append(x)
+print(type(full_deck()))
+full_deck = full_deck()
+print(type(full_deck))
 #print(type(list_cards))
 #choose random card
 #random_card1 = random.randint(0, 21)
@@ -65,29 +60,29 @@ print(v1,v2,v3)
 random_number = random.random()
 print(random_number)
 if random_number >= .5:
-    print(list_cards[v1][1]['face'])
-    print(list_cards[v1][1]['Keywords'])
+    print(full_deck[v1][1]['face'])
+    print(full_deck[v1][1]['Keywords'])
 else:
-    print(list_cards[v1][1]['face'])
-    print(list_cards[v1][1]['Reverse Keywords'])
+    print(full_deck[v1][1]['face'])
+    print(full_deck[v1][1]['Reverse Keywords'])
 
 random_number = random.random()
 print(random_number)
 if random_number >= .5:
-    print(list_cards[v2][1]['face'])
-    print(list_cards[v2][1]['Keywords'])
+    print(full_deck[v2][1]['face'])
+    print(full_deck[v2][1]['Keywords'])
 else:
-    print(list_cards[v2][1]['face'])
-    print(list_cards[v2][1]['Reverse Keywords'])
+    print(full_deck[v2][1]['face'])
+    print(full_deck[v2][1]['Reverse Keywords'])
 
 random_number = random.random()
 print(random_number)
 if random_number >= .5:
-    print(list_cards[v3][1]['face'])
-    print(list_cards[v3][1]['Keywords'])
+    print(full_deck[v3][1]['face'])
+    print(full_deck[v3][1]['Keywords'])
 else:
-    print(list_cards[v3][1]['face'])
-    print(list_cards[v3][1]['Reverse Keywords'])
+    print(full_deck[v3][1]['face'])
+    print(full_deck[v3][1]['Reverse Keywords'])
 #name of the card
 #print(list_cards[number][1]['Suit'])
 #print(list_cards[number][1]['Keywords'])
