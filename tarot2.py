@@ -1,27 +1,10 @@
 # Modules
 import tarot_dictionary
-#import tarot_spread
 import random
 # Module End
-#one card oracle spread
-def full_deck():
-    cards = tarot_dictionary.tarot_deck;
-    list_cards = []
-    for x in cards.items():
-        list_cards.append(x)
-    return list_cards
 
-def oracle_one():
-    v1 = random.sample(range(0,21),1)
-    random_number = random.random()
-    if random_number >= .5:
-        return full_deck()[v1][1]['face']
-        return full_deck()[v1][1]['Keywords']
-    else:
-        return full_deck()[v1][1]['face']
-        return full_deck()[v1][1]['Reverse Keywords']
-    print(type(full_deck()))
-    print(oracle_one())
+
+#Step 1: Meet the guest
 # name = input("Hello. What is your name?")
 # print("Hello " + name + ". Welcome to the tarot game!")
 
@@ -31,71 +14,54 @@ def oracle_one():
 # else:
 #     print("It'll be fine - take a deep breath and let's get started.")
 
-#print("Please pick a number between 1 and 23.")
-#number = int(input())
-#number -= 1
-#print(number)
+
+#Step 2: Select type of reading > incorporate other file of readings?
 print("Are you interested in a One Card Oracle reading (A) or a Three Card Oracle Reading (B)")
 card_spread = input().upper()
 if card_spread == "A":
-    #oracle_one_reading()
+    #oracle_one_reading
     v1 = random.sample(range(0,21),1)
-    print(v1)
+    # print(v1)
 elif card_spread == "B":
-    #oracle_three_reading()
+    #oracle_three_reading
     v1,v2,v3 = random.sample(range(0,21),3)
-    print(v1,v2,v3)
+    # print(v1,v2,v3)
 else:
     print("Stop wasting my time! Pick one!")
-print(type(full_deck()))
-full_deck = full_deck()
-print(type(full_deck))
-#print(type(list_cards))
-#choose random card
-#random_card1 = random.randint(0, 21)
+
+cards = tarot_dictionary.tarot_deck
+list_cards = []
+for x in cards.items():
+    list_cards.append(x)
+
+#Step 3: Choose random card(s)
 v1,v2,v3 = random.sample(range(0,21),3)
-print(v1,v2,v3)
+# print(v1,v2,v3)
 
-# determine upright or reverse card
+#Step 4: Determine upright or reverse card
 random_number = random.random()
-print(random_number)
+# print(random_number)
 if random_number >= .5:
-    print(full_deck[v1][1]['face'])
-    print(full_deck[v1][1]['Keywords'])
+    print(list_cards[v1][1]['face'])
+    print(list_cards[v1][1]['Keywords'])
 else:
-    print(full_deck[v1][1]['face'])
-    print(full_deck[v1][1]['Reverse Keywords'])
-
-random_number = random.random()
-print(random_number)
-if random_number >= .5:
-    print(full_deck[v2][1]['face'])
-    print(full_deck[v2][1]['Keywords'])
-else:
-    print(full_deck[v2][1]['face'])
-    print(full_deck[v2][1]['Reverse Keywords'])
+    print(list_cards[v1][1]['face'])
+    print(list_cards[v1][1]['Reverse Keywords'])
 
 random_number = random.random()
 print(random_number)
 if random_number >= .5:
-    print(full_deck[v3][1]['face'])
-    print(full_deck[v3][1]['Keywords'])
+    print(list_cards[v2][1]['face'])
+    print(list_cards[v2][1]['Keywords'])
 else:
-    print(full_deck[v3][1]['face'])
-    print(full_deck[v3][1]['Reverse Keywords'])
-#name of the card
-#print(list_cards[number][1]['Suit'])
-#print(list_cards[number][1]['Keywords'])
-#print(list_cards[number][1])
-#for y in list_cards[0]['keywords']:
-#    print(y)
-#print(type(y))
+    print(list_cards[v2][1]['face'])
+    print(list_cards[v2][1]['Reverse Keywords'])
 
-#for k,v in cards.items():
-#    print(k)
-
-#print(type(list_cards))
-#print(list_cards[0][number])
-
-#selection = random.choice(list(cards.values()))
-#print(selection)
+random_number = random.random()
+print(random_number)
+if random_number >= .5:
+    print(list_cards[v3][1]['face'])
+    print(list_cards[v3][1]['Keywords'])
+else:
+    print(list_cards[v3][1]['face'])
+    print(list_cards[v3][1]['Reverse Keywords'])
