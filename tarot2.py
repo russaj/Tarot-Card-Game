@@ -1,10 +1,30 @@
 # Modules
 import tarot_dictionary
-import tarot_spread
+#import tarot_spread
 import random
 # Module End
-print(type(tarot_spread.full_deck()))
-full_deck = tarot_spread.full_deck()
+def full_deck():
+    cards = tarot_dictionary.tarot_deck;
+    list_cards = []
+    for x in cards.items():
+        list_cards.append(x)
+    return list_cards
+
+#one card oracle spread
+def oracle_one():
+    v1 = random.sample(range(0,21),1)
+    random_number = random.random()
+    if random_number >= .5:
+        return full_deck()[v1][1]['face']
+        return full_deck()[v1][1]['Keywords']
+    else:
+        return full_deck()[v1][1]['face']
+        return full_deck()[v1][1]['Reverse Keywords']
+    print(type(full_deck()))
+    print(oracle_one())
+    
+print(type(full_deck()))
+full_deck = full_deck()
 print(type(full_deck))
 # name = input("Hello. What is your name?")
 # print("Hello " + name + ". Welcome to the tarot game!")
