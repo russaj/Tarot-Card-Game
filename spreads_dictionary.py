@@ -39,4 +39,5 @@ tarot_spreads = {
   "Name": "Fan Spread",
   "Number of Cards": 22,
   "Description": "General life reading when you don't have a specific question or problem to address",
-},
+}
+}
