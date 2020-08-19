@@ -3,10 +3,12 @@ import tarot_dictionary
 import random
 # Module End
 
-cards = tarot_dictionary.tarot_deck
-list_cards = []
-for x in cards.items():
-    list_cards.append(x)
+def full_deck():
+    cards = tarot_dictionary.tarot_deck;
+    list_cards = []
+    for x in cards.items():
+        list_cards.append(x)
+    return list_cards
 
 card_face = []
 current_card = 4
@@ -16,11 +18,11 @@ for x in card:
     random_number = random.random()
     if random_number >= .5:
         #Up Right
-        face = list_cards[x][1]['face']
-        meaning = list_cards[x][1]['Keywords']
+        face = full_deck()[x][1]['face']
+        meaning = full_deck()[x][1]['Keywords']
     else:
         #Reverse
-        face = list_cards[x][1]['face']
-        meaning = list_cards[x][1]['Keywords']
+        face = full_deck()[x][1]['face']
+        meaning = full_deck()[x][1]['Keywords']
     card_face.append(face+" with the meaning "+meaning)
 print(card_face)
