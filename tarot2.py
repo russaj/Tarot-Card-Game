@@ -34,11 +34,7 @@ list_cards = []
 for x in cards.items():
     list_cards.append(x)
 
-#Step 3: Choose random card(s)
-v1,v2,v3 = random.sample(range(0,21),3)
-# print(v1,v2,v3)
-
-#Step 4: Determine upright or reverse card
+#Step 3: Determine upright or reverse card
 random_number = random.random()
 # print(random_number)
 if random_number >= .5:
