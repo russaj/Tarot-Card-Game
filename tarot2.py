@@ -37,7 +37,7 @@ elif card_spread == "B":
     usedSpread = tarot_spread.threeSpread
 else:
     print("Stop wasting my time! Pick one!")
-print(usedSpread)
+#print(usedSpread)
 dictionaryUsed = usedSpread
 
 #Step 3: Selected card from tarot_deck and determining its orientation
@@ -53,7 +53,7 @@ for x in card:
     else:
         #Reverse
         face = full_deck()[x][1]['face']+" in Reverse"
-        meaning = full_deck()[x][1]['Keywords']
+        meaning = full_deck()[x][1]['Reverse Keywords']
     card_face.append(face)
     card_meaning.append(meaning)
 
