@@ -8,9 +8,11 @@ def full_deck():
     for x in cards.items():
         list_cards.append(x)
     return list_cards
-## Maybe create a single dictionary around "tarot_spreads = {" and have all these dictionaries operating underneath it?
-## Also add in "Description" and make sure it doesn't mess up the information pull from tarot2.py
-starSpread = {
+
+#nested_dict = { 'dictA': {'key_1': 'value_1'},
+#                'dictB': {'key_2': 'value_2'}}
+
+tarot_Spread = { 'starSpread' : {
   'name': 'Star Spread',
   'totalCards' : 6,
   "lineOne" : "first line",
@@ -19,21 +21,22 @@ starSpread = {
   "lineFour" : "fourth line",
   "lineFive" : "fifth line",
   "lineSix" : "sixth line",
-}
-
-threeSpread = {
+},
+'threeSpread' : {
   'name': 'Three Spread',
   'totalCards' : 3,
-  "lineOne" : "past",
-  "lineTwo" : "present",
-  "lineThree" : "future",
-}
-
-oracleSpread = {
+  "lineOne" : "Past",
+  "lineTwo" : "Present",
+  "lineThree" : "Future",
+},
+'oracleSpread' : {
   'name': 'Oracle Spread',
   'totalCards' : 1,
   "lineOne" : "oracle",
 }
+}
+
+print(tarot_Spread[1]['totalCards'])
 
 new_moon_cancerSpread = {
   "Name": "New Moon - Cancer Spread",
